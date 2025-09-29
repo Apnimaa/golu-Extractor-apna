@@ -513,7 +513,7 @@ def process_topic(subject_id, topic_id, batch_id, headers, token, Key, iv):
                     
                     if url and not url.endswith('.ws'):
                         if url.endswith(("_0_0", "_0")):
-                            url = "https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos/enc_plain_mp4/{}/plain/720x1280.mp4".format(url.split("_")[0])
+                            url = "https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/{}/plain/720x1280.mp4".format(url.split("_")[0])
                         elif not url.startswith("https://") and not url.startswith("http://"):
                             url = f"https://youtu.be/{url}"
                         cc = f'{title}: {url}'
