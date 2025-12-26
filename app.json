@@ -1,16 +1,16 @@
 {
   "name": "𝖤𝖣𝖴𝖢𝖠𝖳𝖨𝖮𝖭 𝖧𝖴𝖡",
   "description": "Telegram Bot using Pyrogram",
-  "repository": "https://github.com/ITSGOLU",
+  "repository": "https://github.com/Apnimaa/golu-Extractor-apna",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
-      "value": "",
+      "value": "27433400",
       "required": true
     },
     "API_HASH": {
       "description": "Your Telegram API Hash",
-      "value": "",
+      "value": "1a286620de5ffe0a7d9b57e604293555",
       "required": true
     },
     "BOT_TOKEN": {
@@ -19,13 +19,13 @@
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "Your Bot Username",
-      "value": "",
+      "description": "Demo Bot Name",
+      "value": "Apnilife_1505_bot",
       "required": true
     },
     "OWNER_ID": {
       "description": "Your Telegram User ID (Owner)",
-      "value": "",
+      "value": "6201066540",
       "required": true
     },
     "SUDO_USERS": {
