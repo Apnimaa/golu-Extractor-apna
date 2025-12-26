@@ -29,7 +29,7 @@ def extract_names_and_urls(file_content):
                     
                     # Handle classplusapp URLs
                     if "media-cdn.classplusapp.com" in url:
-                        url = f"https://api.extractor.workers.dev/player?url={6201066540}"
+                        url = f"https://api.extractor.workers.dev/player?url=6201066540"
                     
                     data.append((name, url))
                     break
